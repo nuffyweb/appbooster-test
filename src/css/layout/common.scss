@@ -1,0 +1,52 @@
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+}
+
+html {
+  font-size: $font-size;
+  height: 100%;
+}
+
+body {
+  font-family: $font-harmonia;
+  font-size: $font-size;
+	color: $primary-color;
+  line-height: 1.2;
+
+}
+
+a {
+	color: $primary-color;
+	font-family: $font-harmoniaBold;
+  text-decoration: none;
+}
+
+.main {
+	height: 100%;
+	max-width: 1080px;
+		padding: 40px;
+		margin: 7.55% auto;
+		width: 87.45%;
+		border: 1px solid rgba(17,34,62,.05);
+  position: relative;
+}
+table {
+	border-collapse: collapse;
+}
+.custom--deco:hover {
+	-webkit-box-shadow: 0 3px 7px 0 rgba(33, 33, 33, 0.2);
+	box-shadow: 0 3px 7px 0 rgba(33, 33, 33, 0.2);
+}
+label {
+	vertical-align: middle;
+	display: inline-flex;
+	align-items: center;
+}
